@@ -5,8 +5,8 @@ import torch
 import os
 import csv
 import time
-from utils.lossmeter import AverageMeter
-from models.nasmodel import CustomCheng2020Anchor
+from utils import AverageMeter
+from models import CustomCheng2020Anchor
 from compressai.zoo import bmshj2018_factorized,cheng2020_anchor
 from torch.utils.data import DataLoader
 from torchvision import transforms
